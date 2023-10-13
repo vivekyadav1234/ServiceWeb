@@ -11,15 +11,15 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ServiceWeb">
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/ServiceWeb" element={<Home />} />
-          <Route path="/ServiceWeb/about" element={<About />} />
-          <Route path="/ServiceWeb/services" element={<Services />} />
-          <Route path="/ServiceWeb/portfolio" element={<Portfolio />} />
-          <Route path="/ServiceWeb/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
