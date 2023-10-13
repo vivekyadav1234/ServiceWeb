@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import NotFound from './components/NotFound'; // Import the NotFound component
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} /> {/* Catch-All Route */}
         </Routes>
         <Footer />
       </div>
