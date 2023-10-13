@@ -1,0 +1,49 @@
+/* src/components/Header.css */
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Horizontal menu by default */
+  }
+  
+  nav li {
+    margin-right: 20px; /* Add margin to create space between menu items */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff5733;
+  }
+  
+  /* Media query for screens smaller than 768px (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .sticky-header {
+      padding: 10px; /* Reduce header padding for smaller screens */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Stack menu items vertically on smaller screens */
+    }
+  
+    nav li {
+      margin-right: 0; /* Remove margin to stack menu items vertically */
+      margin-bottom: 10px; /* Add space between stacked menu items */
+    }
+  }
+  
