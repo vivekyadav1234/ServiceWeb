@@ -6,10 +6,16 @@ const NotFound = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    navigate('/ServiceWeb'); // Redirect to the origin URL
+    setTimeout(() => {
+      navigate('/ServiceWeb'); // Redirect to the origin URL
+    }, 2000); // Redirect after a 2-second delay
   }, [navigate]);
 
-  return null; // This component doesn't render anything
+  return (
+    <div>
+      <p>Page not found. Redirecting...</p>
+    </div>
+  );
 };
 
 export default NotFound;
