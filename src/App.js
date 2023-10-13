@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ServiceWeb">
       <div className="App">
         <Header />
         <Routes>
