@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const NotFound = () => (
-  <div>
-    <h2>404 - Not Found</h2>
-    <p>The page you're looking for doesn't exist.</p>
-  </div>
-);
+const NotFound = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate('/');
+  }, [navigate]);
+
+  return <div>Redirecting to the home page...</div>;
+};
 
 export default NotFound;

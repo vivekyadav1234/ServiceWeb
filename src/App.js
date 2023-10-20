@@ -21,7 +21,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} /> {/* Catch-All Route */}
+          <Route path="*" element={<NotFound />} />{/* Catch-All Route */}
         </Routes>
         <Footer />
       </div>
