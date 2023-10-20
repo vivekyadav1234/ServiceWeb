@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-//import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
-import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -10,11 +8,11 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import NotFound from './components/NotFound'; // Import the NotFound component
+import NotFound from './components/NotFound';
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/"> {/* Replace "reponame" with your repository's subdirectory */}
       <div className="App">
         <Header />
         <Routes>

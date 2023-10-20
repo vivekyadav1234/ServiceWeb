@@ -1,8 +1,9 @@
-// Footer.js
 import React from 'react';
 
-function Footer() {
-  // Your component code here
-}
+const Footer = () => (
+  <footer>
+    <p>&copy; 2023 ServiPro</p>
+  </footer>
+);
 
 export default Footer;
