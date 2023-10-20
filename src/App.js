@@ -14,7 +14,7 @@ import NotFound from './components/NotFound'; // Import the NotFound component
 
 function App() {
   return (
-    <Router basename="/ServiceWeb">
+    <Router>
       <div className="App">
         <Header />
         <Routes>
