@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header';
 import Home from './components/Home';
@@ -8,11 +8,19 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import NotFound from './components/NotFound';
+
+function NotFound() {
+  return (
+    <div>
+      <p>404 - Not Found</p>
+      <a href="/">Go to Home</a>
+    </div>
+  );
+}
 
 function App() {
   return (
-    <Router basename="/"> {/* Replace "reponame" with your repository's subdirectory */}
+    <Router>
       <div className="App">
         <Header />
         <Routes>
@@ -21,7 +29,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />{/* Catch-All Route */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
