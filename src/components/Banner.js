@@ -6,14 +6,14 @@ import './Banner.css'; // Create a new CSS file for your banner styles
 function Banner() {
   return (
     <div className="banner">
-      <div className="text">
-        <h1>Fintech Software Development Company</h1>
-        <p>Gloify is a leading software development company, empowering businesses to transform their ideas into reality.</p>
+        <div className="banner-content">
+          <h1 className="banner-title">ELEVATE YOUR BUSINESS TO NEW HEIGHTS</h1>
+          <p className="banner-text">
+          Arm Your Team with Leading-Edge Software Solutions.
+          </p>
+        </div>
       </div>
-      <div className="image">
-        <img src="image-url.jpg" alt="Gloify Image" /> {/* Replace 'image-url.jpg' with your image file path */}
-      </div>
-    </div>
+  
   );
 }
 

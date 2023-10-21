@@ -1,0 +1,61 @@
+/* Default styles for larger screens */
+.vision-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .vision-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .vision-content h2 {
+    font-size: 32px;
+    color: white;
+  }
+  
+  .vision-content p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles for smaller screens (e.g., tablets and mobile devices) */
+  @media (max-width: 768px) {
+    .vision-section {
+      padding: 40px 0; /* Reduce padding for smaller screens */
+    }
+  
+    .vision-content h2 {
+      font-size: 28px; /* Decrease font size for smaller screens */
+    }
+  
+    .vision-content p {
+      font-size: 16px; /* Decrease font size for smaller screens */
+    }
+  }
+  
+
+  .grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+  }
+  
+  .grid-item h3 {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .grid-item p {
+    font-size: 16px;
+    color: #666;
+  }
+  

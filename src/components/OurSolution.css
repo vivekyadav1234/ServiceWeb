@@ -1,0 +1,53 @@
+.solutions-section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .solutions-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: left;
+    margin-left: 7%;
+  }
+  
+  .solutions-item {
+    color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+  }
+  
+  .solutions-item h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .solutions-item p {
+    font-size: 16px;
+    margin: 0;
+    color: #555;
+  }
+  .hcolor{
+      color: white;
+  }
+
+  @media (min-width: 768px) {
+    .solutions-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .solutions-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .hr-line {
+    border-top: 2px solid #333;
+    margin: 20px auto;
+    width: 60px;
+  }
+  

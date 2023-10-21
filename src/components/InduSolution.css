@@ -1,0 +1,103 @@
+/* ProcessSection.css */
+
+.process-section {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+  }
+  
+  .process-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .process-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .process-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .process-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .process-text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .process-text li {
+    margin-bottom: 20px;
+  }
+  
+  /* Add responsive styles as needed */
+  /* Add this to your CSS file (ProcessSection.css) */
+.hr-line {
+    border: none;
+    border-top: 1px solid #ccc; /* You can adjust the color */
+    margin: 20px 0; /* Adjust the margin as needed */
+  }
+  
+  /* Add this CSS to your stylesheet */
+
+.process-section {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .process-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .process-image {
+    flex-basis: 40%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .process-text {
+    flex-basis: 50%;
+    text-align: left;
+  }
+  
+  .process-text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .process-text li {
+    margin-bottom: 20px;
+  }
+  .process-text p{
+    color: #555;
+  }
+  /* Media query for mobile view */
+  @media (max-width: 768px) {
+    .process-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .process-image {
+      flex-basis: 70%;
+    }
+  
+    .process-text {
+      flex-basis: 90%;
+    }
+  }
+  

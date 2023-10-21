@@ -1,0 +1,29 @@
+.hr-line {
+    border-top: 2px solid #333;
+    margin: 20px auto;
+    width: 60px;
+  }
+  .client-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .client-item {
+    /* background: #f9f9f9; */
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+  }
+  
+  .client-item h3 {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .client-item p {
+    font-size: 16px;
+    color: #666;
+  }
+  

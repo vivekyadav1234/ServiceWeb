@@ -1,52 +1,44 @@
-/* src/components/Home.css */
+/* Default styles */
+.contact-page {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+}
 
-.services-section {
-    padding: 40px;
-    text-align: center;
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.address, .phone, .email {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  /* background-color: #f5f5f5; */
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .contact-details {
+    flex-direction: column;
   }
-  
-  .services-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .service-card {
-    width: 300px;
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: left;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Media query for screens smaller than 768px (e.g., mobile devices) */
-  @media (max-width: 768px) {
-    .services-container {
-      flex-direction: column;
-    }
-  
-    .service-card {
-      width: 100%;
+
+  .address, .phone, .email {
     margin: 10px 0;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: none;
-    border-radius: 0;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    box-shadow: none;
-    transition: background-color 0.3s;
-    cursor: pointer;
-    display: flex;
-      flex-direction: column;
-    text-align: center;
-    padding: 20px 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
   }
 }
+
+/* Add more media queries as needed for different screen sizes */
+.hr-line {
+  border-top: 2px solid #333;
+  margin: 20px auto;
+  width: 60px;
+}
+ 

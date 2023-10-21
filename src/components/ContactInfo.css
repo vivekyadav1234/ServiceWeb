@@ -1,0 +1,68 @@
+.ContactInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .ContactInfo h3 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+  }
+  
+  .ContactInfo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .ContactInfo li {
+    margin-right: 10px;
+  }
+  
+  .ContactInfo a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.2s;
+  }
+  
+  .ContactInfo a:hover {
+    color: #007BFF;
+  }
+  
+  .ContactInfo .social-icons {
+    display: flex;
+  }
+  
+  .ContactInfo .social-icons a {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .ContactInfo .social-icons a:hover {
+    color: #007BFF;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    color: white !important;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.4;
+  }
+  
+  .contact-info strong {
+    font-weight: bold;
+    color: white;
+  }
+  .LogoSize{
+      height: 56px !important;
+  }
