@@ -13,7 +13,7 @@ function ContactInfo() {
                 <strong>ServiPro</strong>
                 <br />
                 BTM Layout, Bengaluru, Karnataka, India
-            </p>
+            </p> 
         
        <p>Feel free to reach out to us via email, phone, or social media. We're here to help!</p>
       <div className="social-links">
