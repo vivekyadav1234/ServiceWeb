@@ -27,3 +27,14 @@
     color: #666;
   }
   
+
+  @media (max-width: 768px) {
+    
+    .client-section {
+      display: contents;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+      gap: 20px;
+      padding: 40px;
+      text-align: center;
+    }
+  }

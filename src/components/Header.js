@@ -11,6 +11,7 @@ function Header() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    window.scrollTo(0, 0); 
   };
   const changeNavbarBackground = () => {
     if (window.scrollY >= 50) {
