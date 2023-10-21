@@ -17,7 +17,7 @@ function ContactInfo() {
         
        <p>Feel free to reach out to us via email, phone, or social media. We're here to help!</p>
       <div className="social-links">
-        <a href="https://wa.me/91960731393"><img className='LogoSize' src="whats.png" alt="whatsapp" /></a>
+        <a href="https://wa.me/919607313093"><img className='LogoSize' src="whats.png" alt="whatsapp" /></a>
         <img  className='LogoSize' src="twit.png" alt="Twitter" /> 
         {/* <a href="#" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn" /></a> */}
         <img className='LogoSize' src="inst.png" alt="Instagram" /> 
