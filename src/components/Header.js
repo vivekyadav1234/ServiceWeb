@@ -69,8 +69,14 @@ function Header() {
               <span className='contact' onClick={toggleDropdown}>
                 Contact US
               </span>
-              {isDropdownOpen && <ContactDropdown />}
+              {isDropdownOpen && <div className='contact-dropdown'>
+                  <a href="https://wa.me/919607313093" target="_blank" rel="noopener noreferrer">
+                    WhatsApp
+                  </a>
+                  <a href="mailto:kumarvivek25101@gmail.com">Email Us</a>
+                </div>}
              </div>
+             {/* {isDropdownOpen && <ContactDropdown />} */}
             </li>
             {/* Add other navigation items and use the location object to determine the active link */}
           </ul>
