@@ -48,7 +48,7 @@ function About() {
         </div>
       </div>
       <div className="contact-page">
-         <h2 className="hcolor">CONTACT US</h2>
+         <h2 className="AHcolor">CONTACT US</h2>
          <hr className="hr-line" />
       </div>
       <div className="contact-container">

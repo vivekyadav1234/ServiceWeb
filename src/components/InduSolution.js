@@ -11,21 +11,12 @@ const InduSolution = () => {
         <div className="process-text">
           <ul>
             <li>
-              <strong>1. Connect and Explore</strong>
+              <h4>Crafting Durable and Streamlined Technology Solutions</h4>
               <p>
-                It all begins with you. Schedule an exploration call to initiate our journey together. During this call, we delve into your aspirations, needs, and possibilities, setting the stage for a tailored and meaningful collaboration.
-              </p>
-            </li>
-            <li>
-              <strong>2. Solution and Team Discussion</strong>
-              <p>
-                We engage in thoughtful discussions about your solution and define the ideal team structure. This ensures that our path forward aligns perfectly with your project's unique requirements.
-              </p>
-            </li>
-            <li>
-              <strong>3. Launch and Performance Monitoring</strong>
-              <p>
-                As your project takes flight, we guide you through the initial steps and assist in monitoring its performance. Tracking key metrics empowers us to fine-tune our strategies for optimal results.
+              As a provider of industry-specific software solutions, we meticulously customize each solution to precisely meet the unique needs of each company. Our services are dedicated to propelling businesses forward and guiding them towards unparalleled success.
+
+Backed by a team renowned for their technical expertise, domain knowledge, and years of experience, we take pride in offering comprehensive end-to-end technology solutions.
+
               </p>
             </li>
           </ul>

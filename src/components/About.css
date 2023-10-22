@@ -11,7 +11,7 @@
   }
   
   .journey-content h3 {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: white;
     margin-bottom: 10px;
   }
@@ -51,7 +51,7 @@
   }
   
   .profile-details h3 {
-    font-size: 18px;
+    font-size: 1.2em;
     margin-bottom: 5px;
     color: white;
   }
@@ -73,7 +73,7 @@
   }
   
   .contact-container h2 {
-    font-size: 24px;
+    font-size: 1.2em;
     color: #555;
     margin: 0 0 20px 0;
   }
@@ -133,4 +133,7 @@
     border-top: 2px solid #555;
     margin: 20px auto;
     width: 60px;
+  }
+  .AHcolor{
+    font-size: 1.5rem;
   }
