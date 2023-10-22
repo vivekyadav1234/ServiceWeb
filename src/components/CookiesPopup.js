@@ -14,14 +14,15 @@ const CookiesPopup = () => {
     localStorage.setItem('cookiesAccepted', 'true');
     setAcceptedCookies(true);
   };
-  const rejectCookies= () => {
+  const rejectCookie= () => {
+    localStorage.setItem('cookiesAccepted', 'false');
     setAcceptedCookies(true);
   };
 
   return (
     !acceptedCookies && (
       <div className="cookies-popup">
-        <span className='closeCoo' onClick={rejectCookies}> &times;</span>
+        <span className='closeCoo' onClick={rejectCookie}> &times;</span>
         <div className="cookies-content">
           <h4>This website uses cookies.</h4>
           <p>
