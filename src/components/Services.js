@@ -2,8 +2,10 @@
 import React from 'react';
 import Banner from './Banner';
 import ContentCard from './ContentCard'; 
-import './Service.css'
-import WhyChoose from './WhyChoose'
+import './Service.css';
+import WhyChoose from './WhyChoose';
+import TechnologyCarousel from './TechnologyCarousel';
+import Gmap from './Gmap';
 function Service() {
   const contentCards = [
     {
@@ -92,6 +94,8 @@ function Service() {
     ))}
   </div>
   <WhyChoose/>
+  <TechnologyCarousel/>
+  <Gmap/>
   </div>
   )};
 

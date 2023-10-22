@@ -1,7 +1,7 @@
 .banner {
   position: relative;
   height: 100vh;
-  background: url('/public/bg.jpeg') center/cover no-repeat;
+  background: url('/public/bbbbg.png') center/cover no-repeat;
 }
 
 .banner::before {
@@ -27,14 +27,14 @@
 }
 
 .banner-title {
-  color: #fff;
+  color: #FFA500;
   font-size: 36px;
   margin: 0;
   text-align: center;
 }
 
 .banner-text {
-  color: #fff;
+  color: white;
   font-size: 24px;
   margin: 20px 0;
   text-align: center;
@@ -42,18 +42,6 @@
 
 
 
-.banner-content {
-  text-align: left;
-  padding: 20px;
-}
-
-.banner-title {
-  font-size: 3rem;
-  color: white;
-  margin-bottom: 20px;
-}
-
-.banner-text {
-  font-size: 1.5rem;
-  color:white;
-}
+ 
+ 
+ 

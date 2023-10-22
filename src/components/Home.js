@@ -5,9 +5,11 @@ import Banner from './Banner';
 import './Home.css'; // Create a new CSS file for your home page styles
 import ContentCard from './ContentCard'; // Import the ContentCard component
 import './ContentCard.css'; // Import the CSS file
-import ProcessSection from './ProcessSection'
-import InduSolution from './InduSolution'
-import OurSolution from './OurSolution'
+import ProcessSection from './ProcessSection';
+import InduSolution from './InduSolution';
+import OurSolution from './OurSolution';
+import Gmap from './Gmap';
+import TechnologyCarousel from './TechnologyCarousel';
 function Home() {
   const contentCards = [
     {
@@ -61,25 +63,27 @@ function Home() {
       <ProcessSection/>
       <InduSolution/>
       <OurSolution/>
+     <TechnologyCarousel/>
       <div className="contact-page">
-      <h1 className='hcolor'>Contact Us</h1>
+      <h2 className='hcolor'>CONTACT US</h2>
       <hr className="hr-line" />
       <p>Feel free to reach out to us through the following contact information:</p>
       <div className="contact-details">
         <div className="address">
-          <h2>Address</h2>
+          <h3>Address</h3>
           <p>BTM Layout, Bengaluru,</p>
           <p>Karnataka, India 560076</p>
         </div>
         <div className="phone">
-          <h2>Phone</h2>
+          <h3>Phone</h3>
           <p>+91 9607313093</p>
         </div>
         <div className="email">
-          <h2>Email</h2>
+          <h3>Email</h3>
           <p>kumarvivek25101@gmail.com</p>
         </div>
       </div>
+      <Gmap/>
     </div>
     </div>
   );

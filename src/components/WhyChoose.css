@@ -1,5 +1,5 @@
 .hr-line {
-    border-top: 2px solid #333;
+    border-top: 2px solid #555;
     margin: 20px auto;
     width: 60px;
   }
@@ -24,7 +24,7 @@
   
   .client-item p {
     font-size: 16px;
-    color: #666;
+    color: #555;
   }
   
 

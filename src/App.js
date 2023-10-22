@@ -5,6 +5,8 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
+import CookiesPopup from './components/CookiesPopup'; // Import the CookiesPopup component
+
 // import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -31,6 +33,7 @@ function App() {
           {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <CookiesPopup /> {/* Include the CookiesPopup component */}
         <Footer />
       </div>
     </Router>

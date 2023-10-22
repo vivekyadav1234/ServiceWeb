@@ -1,0 +1,65 @@
+.cookies-popup {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  max-width: 400px; /* You can adjust the max width as needed for responsive design */
+  background: #000000ed;
+  border: 1px solid #FFA500;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cookies-content {
+  margin-bottom: 20px;
+}
+
+.cookies-content h4 {
+  font-size: 24px;
+  margin: 0 0 10px;
+  color: #fff;
+}
+
+.cookies-content p {
+  font-size: 16px;
+  margin: 0;
+  color: #555;
+}
+
+.accept-cookies-button {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 11px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 200px; /* Adjust max width for responsiveness */
+}
+.closeCoo{
+  right: 3%;
+  position: absolute;
+  top: 3%;
+  font-size: 26px;
+  color: #FFA500;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .cookies-popup {
+    padding: 10px;
+  }
+
+  .cookies-content h4 {
+    font-size: 20px;
+  }
+
+  .accept-cookies-button {
+    padding: 8px 16px;
+  }
+}

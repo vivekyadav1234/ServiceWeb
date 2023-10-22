@@ -3,7 +3,7 @@ import React from 'react';
 import Banner from './Banner';
 import ContactForm from './ContactForm'
 import ContactInfo from './ContactInfo'
-
+import Gmap from './Gmap';
 //import vivekImage from './vivek.jpg'; // Import the image for Vivek Kumar Yadav
 //import raviImage from './ravi.jpg';   // Import the image for Ravi Shankar Jha
 import './About.css';
@@ -55,6 +55,7 @@ function About() {
         <ContactForm />
         <ContactInfo />
       </div>
+      <Gmap/>
      </div>
   );
 }

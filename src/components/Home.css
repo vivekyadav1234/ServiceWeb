@@ -1,7 +1,6 @@
 /* Default styles */
 .contact-page {
   text-align: center;
-  padding: 20px;
   font-size: 18px;
   color: white;
 }
@@ -37,8 +36,10 @@
 
 /* Add more media queries as needed for different screen sizes */
 .hr-line {
-  border-top: 2px solid #333;
+  border-top: 2px solid #555;
   margin: 20px auto;
   width: 60px;
 }
- 
+.contact-details p{
+  color: #555;
+}
