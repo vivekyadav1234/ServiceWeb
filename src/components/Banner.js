@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './Banner.css'; // Create a new CSS file for your banner styles
-import { useLocation } from 'react-router-dom';
+import { useLocation ,Link} from 'react-router-dom';
 
 function Banner() {
   const location = useLocation();
@@ -20,6 +20,7 @@ function Banner() {
           <p className="banner-text">
           Arm Your Team with Leading-Edge Software Solutions.
           </p>
+        {location.pathname === '/' &&  <Link className='linkServ' to="/services">See Our Service </Link>}
         </div>
       </div>
   
