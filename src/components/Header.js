@@ -17,9 +17,11 @@ function Header() {
   const [navbarBackground, setNavbarBackground] = useState(false);
   const location = useLocation();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const phoneNumber = '1234567890';  // Replace with the recipient's phone number
+  const defaultMessage = 'Hello, I would like to inquire about...';
+  const phoneNumber = '919607313093';  // Replace with the recipient's phone number
   const message = 'Hello, this is Vivek ! How i can help you ?';
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  const mailtoLink = `mailto:serviprouser@gmail.com?subject=Contact Form Submission&body=${defaultMessage}`;
 
 
   const toggleMenu = () => {
@@ -76,7 +78,7 @@ function Header() {
                   <a href={url} target="_blank" rel="noopener noreferrer">
                     WhatsApp
                   </a>
-                  <a href="mailto:kumarvivek25101@gmail.com">Email Us</a>
+                  <a href={mailtoLink}>Email Us</a>
                 </div>}
              </div>
              {/* {isDropdownOpen && <ContactDropdown />} */}
