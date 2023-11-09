@@ -2,7 +2,7 @@ import React from 'react';
 import './ContentCard.css'; // Adjust the path to match the location of your CSS file
 
 const ContentCard = (props) => {
-  const { title, description, imageUrl } = props;
+  const { title, descriptionsData, imageUrl } = props;
 
   return (
       
@@ -12,7 +12,7 @@ const ContentCard = (props) => {
         </div>
         <div className="info">
             <h4>{title}</h4>
-            <p>{description}</p>
+            <p>{descriptionsData}</p>
         </div>
     </div>
 

@@ -10,32 +10,32 @@ function Service() {
   const contentCards = [
     {
       name: 'Web Application Development',
-      description: 'Experience comprehensive Web Application Development solutions under one roof. Our team specializes in crafting bespoke web applications for clients worldwide',
+      descriptionsData: 'Experience comprehensive Web Application Development solutions under one roof. Our team specializes in crafting bespoke web applications for clients worldwide',
       imageUrl:'/webdev1.png'
     },
     {
       name: 'Mobile Application Development',
-      description: 'Unlock the full potential of your business with our customized mobile application development services. We mobilize your business, enabling seamless operation anytime, anywhere.',
+      descriptionsData: 'Unlock the full potential of your business with our customized mobile application development services. We mobilize your business, enabling seamless operation anytime, anywhere.',
       imageUrl:'/mob.webp'
     },
     {
       name: 'DevOps Solutions',
-      description: 'Effortlessly bridge the gap between development and operations with our DevOps services. We guarantee agile, reliable, and high-performance software delivery.',
+      descriptionsData: 'Effortlessly bridge the gap between development and operations with our DevOps services. We guarantee agile, reliable, and high-performance software delivery.',
       imageUrl:'/deops.webp'
     },
     {
       name: 'Innovative UI/UX Design',
-      description: 'We blend creativity with functionality through our innovative UI/UX design. We craft user-centric interfaces that foster meaningful connections and enhance user experiences.',
+      descriptionsData: 'We blend creativity with functionality through our innovative UI/UX design. We craft user-centric interfaces that foster meaningful connections and enhance user experiences.',
       imageUrl:'/uiux.webp'
     },
     {
       name: 'Strategic Digital Marketing',
-      description: 'Achieve engagement, conversion, and success with our customized Digital Marketing services. We combine data-driven insights with impactful online strategies to drive your business forward.',
+      descriptionsData: 'Achieve engagement, conversion, and success with our customized Digital Marketing services. We combine data-driven insights with impactful online strategies to drive your business forward.',
       imageUrl:'/market1.png'
     },
     {
       name: 'Software Quality Assurance',
-      description: 'Our dedication to excellence shines through our Software Quality Assurance services. We ensure impeccable performance and reliability for your solutions, giving you peace of mind.',
+      descriptionsData: 'Our dedication to excellence shines through our Software Quality Assurance services. We ensure impeccable performance and reliability for your solutions, giving you peace of mind.',
       imageUrl:'/test1.png'
     },
   ];
@@ -88,7 +88,7 @@ function Service() {
       <ContentCard
         key={index}
         title={card.name}
-        description={card.description}
+        descriptionsData={card.descriptionsData}
         imageUrl={card.imageUrl}
       />
     ))}
