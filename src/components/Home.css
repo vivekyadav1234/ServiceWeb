@@ -22,7 +22,15 @@
   color: white;
   text-align: center;
 }
-
+.contact-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f8f8f8; */
+  padding: 30px;
+  border-radius: 10px;
+}
 /* Responsive styles */
 @media (max-width: 768px) {
   .contact-details {
@@ -31,6 +39,10 @@
 
   .address, .phone, .email {
     margin: 10px 0;
+  }
+  .contact-container {
+    padding: 20px;
+    flex-direction: column;
   }
 }
 

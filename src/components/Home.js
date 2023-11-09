@@ -8,6 +8,8 @@ import './ContentCard.css'; // Import the CSS file
 import ProcessSection from './ProcessSection';
 import InduSolution from './InduSolution';
 import OurSolution from './OurSolution';
+import ContactForm from './ContactForm'
+import ContactInfo from './ContactInfo'
 import Gmap from './Gmap';
 import TechnologyCarousel from './TechnologyCarousel';
 function Home() {
@@ -68,7 +70,7 @@ function Home() {
       <h2 className='hcolor'>CONTACT US</h2>
       <hr className="hr-line" />
       <p>Feel free to reach out to us through the following contact information:</p>
-      <div className="contact-details">
+      {/* <div className="contact-details">
         <div className="address">
           <h3>Address</h3>
           <p>BTM Layout, Bengaluru,</p>
@@ -82,6 +84,10 @@ function Home() {
           <h3>Email</h3>
           <p>kumarvivek25101@gmail.com</p>
         </div>
+      </div> */}
+       <div className="contact-container">
+        <ContactForm />
+        <ContactInfo />
       </div>
       <Gmap/>
     </div>

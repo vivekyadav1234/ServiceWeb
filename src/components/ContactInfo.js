@@ -21,6 +21,7 @@ function ContactInfo() {
         <img  className='LogoSize' src="twit.png" alt="Twitter" /> 
         {/* <a href="#" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn" /></a> */}
         <img className='LogoSize' src="inst.png" alt="Instagram" /> 
+        <a href="mailto:serviprouser@gmail.com"><img className='EmailLogoSize' src="emails.png" alt="email" /></a>
       </div> 
     </div>
   ); 
