@@ -56,6 +56,23 @@
     background-color: #2f4051;
   }
   
+.success-message,
+.error-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  /* font-weight: bold; */
+}
+
+.success-message {
+  background-color: #FFA500;
+  color: white;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+}
   @media (max-width: 768px) {
     .contact-form form input,
     .contact-form form textarea,
