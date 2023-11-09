@@ -1,5 +1,4 @@
 // src/components/Home.js
-
 import React from 'react';
 import Banner from './Banner';
 import './Home.css'; // Create a new CSS file for your home page styles
@@ -70,21 +69,6 @@ function Home() {
       <h2 className='hcolor'>CONTACT US</h2>
       <hr className="hr-line" />
       <p>Feel free to reach out to us through the following contact information:</p>
-      {/* <div className="contact-details">
-        <div className="address">
-          <h3>Address</h3>
-          <p>BTM Layout, Bengaluru,</p>
-          <p>Karnataka, India 560076</p>
-        </div>
-        <div className="phone">
-          <h3>Phone</h3>
-          <p>+91 9607313093</p>
-        </div>
-        <div className="email">
-          <h3>Email</h3>
-          <p>kumarvivek25101@gmail.com</p>
-        </div>
-      </div> */}
        <div className="contact-container">
         <ContactForm />
         <ContactInfo /> 
