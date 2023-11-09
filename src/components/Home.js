@@ -87,7 +87,8 @@ function Home() {
       </div> */}
        <div className="contact-container">
         <ContactForm />
-        <ContactInfo />
+        <ContactInfo /> 
+        {/* add contact form */}
       </div>
       <Gmap/>
     </div>
