@@ -27,21 +27,21 @@ function About() {
         </div>
       </div>
 
-      <div class="profile-container">
-        <div class="profile-card">
-          <div class="profile-image">
+      <div className="profile-container">
+        <div className="profile-card">
+          <div className="profile-image">
             <img src="/vivek.jpeg" alt="Vivek" />
           </div>
-          <div class="profile-details">
+          <div className="profile-details">
             <h3>Vivek Kumar Yadav</h3>
             <p>Vivek, Director of Technology Development, plays a pivotal role in our company's leadership. He spearheads the front-end team, guiding our technology and innovation efforts with expertise and vision.</p>
           </div>
         </div>
-        <div class="profile-card">
-          <div class="profile-image">
+        <div className="profile-card">
+          <div className="profile-image">
             <img src="/Ravi.jpeg" alt="Ravi" />
           </div>
-          <div class="profile-details">
+          <div className="profile-details">
             <h3>Ravi Shankar Jha</h3>
             <p>Ravi leads the company's technological development, overseeing all technical aspects of organizational growth with precision and expertise.</p>
           </div>

@@ -1,18 +1,17 @@
 // src/components/Header.js
-
 import { Link,useLocation } from 'react-router-dom';
 import './Header.css'; // Create a new CSS file for your header styles
 import React, { useState,useEffect } from 'react';
-const ContactDropdown = () => {
-  return (
-    <div className='contact-dropdown open'>
-      <a href="https://wa.me/919607313093" target="_blank" rel="noopener noreferrer">
-        WhatsApp
-      </a>
-      <a href="mailto:kumarvivek25101@gmail.com">Email Us</a>
-    </div>
-  );
-};
+// const ContactDropdown = () => {
+//   return (
+//     <div className='contact-dropdown open'>
+//       <a href="https://wa.me/919607313093" target="_blank" rel="noopener noreferrer">
+//         WhatsApp
+//       </a>
+//       <a href="mailto:kumarvivek25101@gmail.com">Email Us</a>
+//     </div>
+//   );
+// };
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [navbarBackground, setNavbarBackground] = useState(false);
