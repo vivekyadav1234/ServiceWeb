@@ -1,5 +1,6 @@
 // src/components/Home.js
 import React from 'react';
+// import axios from 'axios';
 import Banner from './Banner';
 import './Home.css'; // Create a new CSS file for your home page styles
 import ContentCard from './ContentCard'; // Import the ContentCard component

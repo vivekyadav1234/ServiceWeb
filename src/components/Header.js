@@ -18,9 +18,8 @@ function Header() {
   const location = useLocation();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const defaultMessage = 'Hello, I would like to inquire about...';
-  const phoneNumber = '919607313093';  // Replace with the recipient's phone number
-  const message = 'Hello, this is Vivek ! How i can help you ?';
-  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  const phoneNumber = '919607313093';  
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
   const mailtoLink = `mailto:serviprouser@gmail.com?subject=Contact Form Submission&body=${defaultMessage}`;
 
 
